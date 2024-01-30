@@ -52,6 +52,3 @@ const students = [
 
 const studentsWithIds = students.map(student => [student.name, student.id])
 console.log(studentsWithIds)
-
-const studentsWithIds_2 = students.map(student => [{student{student.name, student.id}}])
-console.log(studentsWithIds_2)
